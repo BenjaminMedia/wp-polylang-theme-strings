@@ -17,6 +17,7 @@
         static $prefix = 'mw_polylang_strings_';
         static $plugin_version = '1.0.0';
         static $pll_f = 'pll_register_string';
+        static $php_file_size_limit = 2097152;
         private $paths;
         private $var = array();
 
