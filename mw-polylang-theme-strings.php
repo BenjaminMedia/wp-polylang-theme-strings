@@ -211,7 +211,7 @@
                 {
                     $f = $dir . '/' . $item;
 
-                    if (is_file($f))
+                    if (is_file($f) && filesize($f) <= self::$php_file_size_limit)
                     {
                         $files[] = $f;
                     }
@@ -282,7 +282,7 @@
                                 {
                                     foreach ($p[0] as $pv)
                                     {
-                                        preg_match_all("/pll_[_e][\s]*\([\s]*[\'\"](.*?)[\'\"][\s]*\)/uis", $pv, $m);
+                                        preg_match_all("/pll_[_e][\s]*\([\s]*[\'\"](.*?)[\'\"][\s]*[\),]/uis", $pv, $m);
 
                                         if (count($m[0]))
                                         {
