@@ -1,0 +1,54 @@
+#mw_polylang_strings_polylang_info_area {
+    float: left;
+    margin: 12px 0 8px 0;
+    padding: 5px 7px;
+    background: #ffffff url('//s.modeewine.com?s=polylang_theme_strings') 0 0 no-repeat;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+#mw_polylang_strings_polylang_info_area > span {
+    display: block;
+    font-size: 11px;
+    line-height: 1.2;
+}
+
+#mw_polylang_strings_polylang_info_area > span > i {
+    font-style: normal;
+    font-weight: bold;
+}
+
+#mw_polylang_strings_polylang_info_area > span.links a {
+    margin: 0 3px;
+    padding: 0 3px;
+    border-right: 1px solid #dddddd;
+}
+
+#mw_polylang_strings_polylang_info_area > span.links a:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#mw_polylang_strings_polylang_info_area > span.links a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+#mw_polylang_strings_polylang_info_area .caption {
+    margin-bottom: 4px;
+}
+
+#mw_polylang_strings_polylang_info_area .links {
+    margin-top: 4px;
+}
+
+#polylang-theme-strings.active .link-pll-strings, /* For WP < 4.5 */
+[data-slug="polylang-theme-strings"].active .link-pll-strings  /* For WP >= 4.5 */ {
+    margin: 0 0 8px 0;
+}
+
+#polylang-theme-strings.active .link-pll-strings a, /* For WP < 4.5 */
+[data-slug="polylang-theme-strings"].active .link-pll-strings a  /* For WP >= 4.5 */ {
+    font-weight: bold;
+}
