@@ -49,12 +49,6 @@
 
         public function Init()
         {
-            if(!function_exists('pll__')) {
-                return;
-            }
-            die('hello');
-
-
             $this->Paths_Init();
             $this->Plugin_Install_Hooks_Init();
 
