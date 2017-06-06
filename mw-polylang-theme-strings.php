@@ -4,7 +4,7 @@
     Plugin Name: Polylang Theme Strings (Blade support)
     Plugin URI: http://modeewine.com/en-polylang-theme-strings
     Description: Automatic scanning of strings translation in the theme and registration of them in Polylang plugin. Extension for Polylang plugin.
-    Version: 1.0.0
+    Version: 1.0.1
     Author: Modeewine
     Author URI: http://modeewine.com
     License: GPL2
@@ -15,7 +15,7 @@
     class MW_Polylang_Theme_Strings
     {
         static $prefix = 'mw_polylang_strings_';
-        static $plugin_version = '1.0.0';
+        static $plugin_version = '1.0.1';
         static $pll_f = 'pll_register_string';
         static $php_file_size_limit = 2097152;
         private $paths;
