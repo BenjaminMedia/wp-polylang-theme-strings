@@ -7,7 +7,7 @@
     Version: 1.0.3
     Author: Modeewine
     Author URI: http://modeewine.com
-    License: GPL2
+    License: proprietary
     */
 
     new MW_Polylang_Theme_Strings();

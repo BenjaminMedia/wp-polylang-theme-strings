@@ -2,7 +2,7 @@
     "name": "benjaminmedia/wp-polylang-theme-strings",
     "type": "wordpress-plugin",
     "description": "Polylang Theme Strings with support for Blade syntax",
-    "license": "GPL2",
+    "license": "proprietary",
     "keywords": ["plugin", "blade", "wordpress"],
     "authors": [
         {
